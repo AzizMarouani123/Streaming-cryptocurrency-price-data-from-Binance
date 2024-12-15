@@ -51,9 +51,9 @@ Start **Zookeeper** (required for Kafka):
 
 To start the Kafka server:
 
+
 ```bash
 bin/kafka-server-start.sh config/server.properties
-
 
 
 
