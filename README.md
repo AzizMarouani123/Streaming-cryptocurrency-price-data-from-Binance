@@ -151,16 +151,16 @@ This project integrates Kafka, PyFlink, and Python libraries to process and visu
 ## Screenshots of Visualizations
 
 - **Price Distribution**:
-  ![Price Distribution](Plots/price_distribution.png)
+  ![Price Distribution](Plots/price distribution.png)
 
 - **Top 10 Symbols by Price**:
-  ![Top 10 Symbols](Plots/top_10_symbol.png)
+  ![Top 10 Symbols](Plots/top 10 symbol.png)
 
 - **Price Trend for Symbol**:
   ![Price Trend](Plots/price trend for symbol.png)
 
 - **Price Distribution by Symbol**:
-  ![Price Distribution Boxplot](images/price distribution by symbol.png)
+  ![Price Distribution Boxplot](Plots/price distribution by symbol.png)
 
 ---
 
