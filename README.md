@@ -46,12 +46,12 @@ To use Kafka, you need to have it installed on your local machine or use a cloud
 - Extract the files and navigate to the Kafka folder.
 
 Start **Zookeeper** (required for Kafka):
-```bash
-bin/zookeeper-server-start.sh config/zookeeper.properties
-Start the Kafka server:
 
-bash
-Copy code
+### Start the Kafka Server
+
+To start the Kafka server:
+
+```bash
 bin/kafka-server-start.sh config/server.properties
 
 
