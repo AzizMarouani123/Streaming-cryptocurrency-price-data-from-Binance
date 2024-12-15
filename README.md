@@ -35,15 +35,6 @@ You can install the required Python libraries using the following command:
 pip install -r requirements.txt
 ```
 
-Here is a sample `requirements.txt`:
-
-```makefile
-requests==2.28.1
-pandas==1.5.3
-matplotlib==3.6.3
-seaborn==0.11.2
-pyflink==1.16.0
-```
 
 ---
 
@@ -54,14 +45,12 @@ To use Kafka, you need to have it installed on your local machine or use a cloud
 
 **On Local Machine (Kafka Setup):**
 
-1. Download Kafka from the [official Kafka website](https://kafka.apache.org/downloads).
-2. Extract the files and navigate to the Kafka folder.
-3. Start Zookeeper (required for Kafka):
+1. Start Zookeeper (required for Kafka):
 
    ```bash
    bin/zookeeper-server-start.sh config/zookeeper.properties
    ```
-4. Start Kafka server:
+2. Start Kafka server:
 
    ```bash
    bin/kafka-server-start.sh config/server.properties
